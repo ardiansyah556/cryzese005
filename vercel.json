@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pnpm install && pnpm build",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": "dist",
+  "env": {
+    "PNPM_HOME": "/pnpm",
+    "PATH": "$PNPM_HOME:$PATH"
+  },
+  "nodeVersion": "20.x"
+}
